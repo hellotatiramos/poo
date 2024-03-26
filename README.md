@@ -11,6 +11,11 @@ Método: Uma função que define o comportamento dos objetos. Pode acessar e mod
 
 Em resumo, a POO organiza o código em estruturas mais intuitivas e reutilizáveis, permitindo a modelagem do mundo real de forma mais fiel e facilitando a manutenção e extensão do software.
 
+* [Exemplo](#exemplo)
+* [Enum](#enum)
+* 
+
+
 ## Exemplo
 
 Vamos tentar representar uma Pessoa?
