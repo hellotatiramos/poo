@@ -79,14 +79,19 @@ Aqui está uma forma de representar isso dentro do nosso código:
 ```
 Neste exemplo, a classe Pessoa tem atributos para nome, idade e gênero, e métodos para acessar e modificar esses atributos, bem como métodos para realizar ações como caminhar e falar. O método main é usado para testar a classe, criando uma instância de Pessoa chamada pessoa1 e chamando alguns métodos para demonstrar as ações que uma pessoa pode realizar.
 
+*******
+
 ## Classes
 
-Com uma classe eu construo quantas "pessoas" eu quiser, ou seja, quantos objetos eu quiser.
-Um objeto é a instância (resultado) de uma classe.
+ >*Uma classe é como um modelo ou um gabarito para criar objetos. Ela define o que um objeto pode fazer (métodos) e quais informações ele pode armazenar (atributos). Pense em uma classe como um molde que pode ser usado para criar muitos objetos diferentes com características semelhantes.*
 
-Classe = Molde, Modelo, Gabarito.
-Atributos = Representam as características de um objeto.
-Métodos = Representam os comportamentos de um objeto.
+`Com uma classe eu construo quantas "pessoas" eu quiser, ou seja, quantos objetos eu quiser. Essa classe `Pessoa` poderia ter métodos como "dormir" e "falar", e atributos como "idade" e "nome". Então, quando criamos um objeto a partir dessa classe, estamos basicamente usando esse molde para criar um carro específico com suas próprias características e comportamentos.`
+
+### O que são objetos? 
+
+>*Um objeto é uma instância específica de uma classe. Enquanto uma classe é como um modelo que define os atributos e comportamentos dos objetos, um objeto é uma entidade concreta que é criada com base nesse modelo.*
+
+`Por exemplo, se tivermos uma classe chamada Carro, que define atributos como "marca", "modelo" e métodos como "ligar" e "acelerar", podemos criar objetos específicos dessa classe, como um carro da marca "Toyota" e modelo "Corolla", e outro carro da marca "Honda" e modelo "Civic".`
 
 MÉTODOS ACESSORES:
 - PUBLIC: Indica que qualquer um pode acesser o elemento(a classe, os atributos e o métodos).
@@ -96,11 +101,13 @@ MÉTODOS ACESSORES:
 
 Como boa prática em Java todos os atributos devem ser private(só a própria classe consegue acessar).
 
-Objeto: Uma entidade que possui características (atributos) e comportamentos (métodos). Concretização da classe.
-Classe: Um modelo ou um gabarito para criar objetos. Define os atributos e métodos que os objetos terão. Com uma única classe eu construo vários objetos.
+Dicionário Rápido: 
+* **Classe** = Molde, Modelo, Gabarito.
+* **Atributos** = Representam as características de um objeto.
+* **Métodos** = Representam os comportamentos de um objeto.
+* **Instância** = Uma instância é um termo usado em programação orientada a objetos para descrever um objeto específico criado a partir de uma classe. Quando você cria um objeto usando uma classe como modelo, você está instanciando essa classe. Em outras palavras, uma instância é um objeto individual que existe em memória durante a execução do programa.
 
-Atributo: Uma variável que armazena dados pertencentes a um objeto.
-Método: Uma função que define o comportamento dos objetos. Pode acessar e modificar os atributos do objeto.
+*******
 
 ## Enum
 Enumerações em Java, também conhecidas como enums, são uma maneira de representar um conjunto fixo de constantes em Java. Elas são usadas para definir tipos de dados que consistem em um conjunto fixo de valores pré-definidos. Uma enumeração pode ser considerada como uma classe especial em Java, onde seus membros são constantes predefinidas.
